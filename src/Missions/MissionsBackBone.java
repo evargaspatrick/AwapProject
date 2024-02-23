@@ -1,7 +1,9 @@
 package Missions;
 
 import javax.swing.*;
+import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Path;
 import java.nio.file.Paths;
 import javax.swing.JOptionPane;
 
@@ -145,25 +147,4 @@ public class MissionsBackBone {
         puzzle1 = true; // represents that computer password has been entered.
         email1 = true; // // represents that coach Marlowe's email has been discovered.
     }
-
-        public static void displayEndMessage() {
-            try {
-                // Load the content of EndMessage
-                String endMessage = new String(Files.readAllBytes(Paths.get("Resources/EndMessage")));
-
-                // Display the EndMessage
-                JOptionPane.showMessageDialog(null, endMessage, "End Message", JOptionPane.INFORMATION_MESSAGE);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        }
-
-        // Call this method when you want to display the EndMessage
-        public void yourMethod() {
-            // Your method logic here
-
-            // Call the method to display the EndMessage
-            displayEndMessage();
-        }
-
 }

@@ -26,6 +26,7 @@ import java.util.List;
 import static Engine.Engine.addItems;
 import static Engine.Engine.currLocation;
 import static Missions.MissionsBackBone.*;
+import static Resources.EndMessage.displayEndMessage1;
 
 public class InteractFrame {
     private JButton notebookButton, talkButton, accessComputerButton;
@@ -154,7 +155,9 @@ public class InteractFrame {
                             JOptionPane.showMessageDialog(null, "    Hello Coach Marlowe!");
                             MissionsBackBone.setPuzzleTrue();
                             passwordCorrect = true;
-                            MissionsBackBone.displayEndMessage();
+
+                            // Call the displayEndMessage1 method here
+                            displayEndMessage1();
                         } else {
                             JOptionPane.showMessageDialog(null, "Incorrect password. Must be a bench warmer! Please try again.");
                         }
