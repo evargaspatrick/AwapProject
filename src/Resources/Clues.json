@@ -1,0 +1,75 @@
+[
+  {
+    "name": "Key",
+    "description": "A small, metallic key that seems to unlock Janitor's Closet.",
+    "location": "Janitor Joe",
+    "relevance": "High",
+    "clueType": "Physical",
+    "evidenceStrength": 10
+  },
+  {
+    "name": "Magnifying Glass",
+    "description": "An essential tool for any detective looking to uncover the finer details of a case.",
+    "location": "Detective's Office",
+    "relevance": "High",
+    "clueType": "Physical",
+    "evidenceStrength": 8
+  },
+  {
+    "name": "Notebook",
+    "description": "An essential tool for you to write down everything that you encounter.",
+    "location": "Detective's Office",
+    "relevance": "High",
+    "clueType": "Testimonial",
+    "evidenceStrength": 8
+  },
+  {
+    "name": "Trench Coat",
+    "description": "A classic detective's trench coat with hidden pockets.",
+    "location": "Detective's Office",
+    "relevance": "High",
+    "clueType": "Physical",
+    "evidenceStrength": 9
+  },
+  {
+    "name": "Football Yearbook",
+    "description": "A yearbook of the 1964 football team. There are a few names that stand out.\n     - Jim Boeing, SF, 19\n     - Dalton McGowksi, CB, 7\n     - Zen Maddox, DE, 64 \n     - Matt Lockwood, QB, 23\n     - Matthew McConaughey TE, 14\n",
+    "location": "Coach Marlowe’s Office",
+    "relevance": "High",
+    "clueType": "Testimonial",
+    "evidenceStrength": 8
+  },
+  {
+    "name": "Ink Footprints in the Office",
+    "description": "These footprints head out to the hallway...",
+    "location": "Coach Marlowe's Office",
+    "relevance": "High",
+    "clueType": "Physical",
+    "evidenceStrength": 4
+  },
+  {
+    "name": "Ink Footprints in the Hallway",
+    "description": "More footprints leading to the Janitor Closet.",
+    "location": "Mega Stadium Hallway",
+    "relevance": "Medium",
+    "clueType": "Physical",
+    "evidenceStrength": 5
+  },
+  {
+    "name": "Ink Box",
+    "description": "Knocked over ink box.",
+    "location": "Janitor's Closet",
+    "relevance": "Medium",
+    "clueType": "Circumstantial",
+    "evidenceStrength": 7
+  },
+  {
+    "name": "Sticky Note",
+    "description": "A sticky note with a cryptic message \"hint: star-player of ‘64, 23 was the best\"",
+    "location": "Mega Stadium Hallway",
+    "relevance": "High",
+    "clueType": "Testimonial",
+    "evidenceStrength": 10
+  }
+]
+

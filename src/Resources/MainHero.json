@@ -1,0 +1,8 @@
+{
+  "name" : "Detective Sam Collins",
+  "role" : "Lead Detective",
+  "description" : "A seasoned detective with a sharp mind, known for unraveling the most complex cases. Sam has a deep sense of justice and a personal code that drives him to seek the truth, no matter where it leads.",
+  "relationshipWithVictim" : "Former colleague and longtime friend. The disappearance of Coach Harrington hits close to home, making this case not just a professional duty but a personal quest for answers.",
+  "currentLocation" : "Detective's Office",
+  "age" : 40
+}
