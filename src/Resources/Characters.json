@@ -1,0 +1,13 @@
+
+{
+  "name": "Janitor Joe",
+  "role": "Janitor",
+  "description": "Caretaker of the premises with access to all areas, including the janitor's closet.",
+  "suspectReason": "Has unrestricted access to all rooms, raising suspicion.",
+  "relationshipWithVictim": "Occasional interactions, mostly professional.",
+  "usefulness": "Has a key ",
+  "location": "Mega Stadium Hallway",
+  "traits": ["Observant", "Meticulous"],
+  "clues": ["Key"],
+  "age": 58.0
+}

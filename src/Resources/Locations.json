@@ -1,0 +1,96 @@
+[ {
+  "name" : "Detective's Office",
+  "description" : "The central hub for investigation, filled with clues and tools for solving mysteries.",
+  "items" : [ {
+    "name" : "Magnifying Glass",
+    "description" : "An essential tool for any detective looking to uncover the finer details of a case.",
+    "location" : "Detective's Office",
+    "relevance" : "High",
+    "clueType" : "Physical",
+    "evidenceStrength" : 8
+  }, {
+    "name" : "Notebook",
+    "description" : "An essential tool for you to write down everything that you encounter.",
+    "location" : "Detective's Office",
+    "relevance" : "High",
+    "clueType" : "Testimonial",
+    "evidenceStrength" : 8
+  }, {
+    "name" : "Trench Coat",
+    "description" : "A classic detective's trench coat with hidden pockets.",
+    "location" : "Detective's Office",
+    "relevance" : "High",
+    "clueType" : "Physical",
+    "evidenceStrength" : 9
+  } ],
+  "people" : [ ],
+  "accessibility" : true,
+  "isExamined" : false
+}, {
+  "name" : "Coach Marlowe’s Office",
+  "description" : "Office of the esteemed Coach Marlowe, known for his dedication to the team's success.",
+  "items" : [ {
+    "name" : "Football Yearbook",
+    "description" : "A yearbook filled with details about the football team, including some suspicious annotations.",
+    "location" : "Coach Marlowe’s Office",
+    "relevance" : "High",
+    "clueType" : "Testimonial",
+    "evidenceStrength" : 8
+  }, {
+    "name" : "Ink Box",
+    "description" : "Knocked over ink box.",
+    "location" : "Janitor's Closet",
+    "relevance" : "Medium",
+    "clueType" : "Circumstantial",
+    "evidenceStrength" : 7
+  }, {
+    "name" : "Ink Footprints in the Office",
+    "description" : "Footprints leading to the hallway.",
+    "location" : "Coach Marlowe's Office",
+    "relevance" : "High",
+    "clueType" : "Physical",
+    "evidenceStrength" : 4
+  } ],
+  "people" : [ ],
+  "accessibility" : true,
+  "isExamined" : false
+}, {
+  "name" : "Mega Stadium Hallway",
+  "description" : "A bustling corridor in the stadium, echoing with the sounds of excited fans.",
+  "items" : [ {
+    "name" : "Ink Footprints in the Hallway",
+    "description" : "More footprints leading to Janitor Closet.",
+    "location" : "Mega Stadium Hallway",
+    "relevance" : "Medium",
+    "clueType" : "Physical",
+    "evidenceStrength" : 5
+  } ],
+  "people" : [ {
+    "name" : "Janitor Joe",
+    "role" : "Janitor",
+    "description" : "Caretaker of the premises with access to all areas, including the janitor's closet.",
+    "suspectReason" : "Has unrestricted access to all rooms, raising suspicion.",
+    "relationshipWithVictim" : "Occasional interactions, mostly professional.",
+    "usefulness" : "Has a key ",
+    "location" : "Mega Stadium Hallway",
+    "traits" : [ "Observant", "Meticulous" ],
+    "clues" : [ "Key" ],
+    "age" : 58.0
+  } ],
+  "accessibility" : true,
+  "isExamined" : false
+}, {
+  "name" : "Janitor's Closet",
+  "description" : "A small, cramped space filled with cleaning supplies and the occasional clue.",
+  "items" : [ {
+    "name" : "Sticky Note",
+    "description" : "A sticky note with a cryptic message \"hint: star-player of ‘64, 23 was the best\"",
+    "location" : "Mega Stadium Hallway",
+    "relevance" : "High",
+    "clueType" : "Testimonial",
+    "evidenceStrength" : 10
+  } ],
+  "people" : [ ],
+  "accessibility" : false,
+  "isExamined" : false
+} ]
